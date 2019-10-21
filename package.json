@@ -1,10 +1,17 @@
 {
   "name": "react-bootstrap-spinner",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Hi there, react-bootstrap-spinner for React Lover&#x27;s :)",
-  "author": "",
+  "author": "ajay marathe",
   "license": "MIT",
-  "repository": "/react-bootstrap-spinner",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaymarathe/react-bootstrap-spinner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ajaymarathe/react-bootstrap-spinner/issues"
+  },
+  "homepage": "https://github.com/ajaymarathe/react-bootstrap-spinner#readme",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -62,5 +69,22 @@
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.0"
-  }
+  },
+  "keywords": [
+    "react-bootstrap-spinner",
+    "react-spinner",
+    "spinners",
+    "react-loader",
+    "loaders",
+    "bootstrap-loaders",
+    "bootstrap-loader",
+    "material-design",
+    "bootstrap-loading",
+    "loading",
+    "reactjs-spinners",
+    "border-spinner",
+    "growing-spinner",
+    "react-border-spinner",
+    "react-growing-spinner"
+  ]
 }

@@ -12,6 +12,12 @@ npm i bootstrap
 ```
 
 ## Usage
+import bootstrap.min.css in main file e.g index.js
+
+```jsx
+import "bootstrap/dist/css/bootstrap.min.css";
+
+```
 
 ```jsx
 import React, { Component } from 'react'

@@ -7,16 +7,17 @@ export default class ReactBootstrapSpinner extends Component {
     size: PropTypes.string,
     type: PropTypes.string,
     color: PropTypes.string,
+    customColor: PropTypes.string
   }
 
   render() {
-    const type = this.props.type;
-
     const divStyle = {
       height: this.props.size+'rem',
-      width: this.props.size+'rem'
+      width: this.props.size+'rem',
+      color: this.props.customColor
     };
-
+    
+    const type = this.props.type;
     const color = this.props.color;
 
     var SpinnerClass = "spinner-"+type +' '+ "text-"+color;

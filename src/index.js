@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-
+import 'styles.css'
 
 export default class ReactBootstrapSpinner extends Component {
   static propTypes = {
@@ -23,7 +23,7 @@ export default class ReactBootstrapSpinner extends Component {
 
     return (
       <div className={SpinnerClass} style={divStyle} role="status">
-        <span className="sr-only">Loading...</span>
+         <span class="visually-hidden">Loading...</span>
       </div>
     )
   }

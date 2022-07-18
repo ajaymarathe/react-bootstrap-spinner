@@ -32,7 +32,9 @@ class Example extends Component {
 
 - **size**: Size `size in rem`
 - **color**: You can give any bootstrap color - `primary, secondary, danger etc...`
+- **customColor**: Use string color name i.e `red, yellow, orange` etc. or color code `#FFA500` etc.
 - **type**: Add spinner type - `grow` or `border`
+
 
 ## License
 

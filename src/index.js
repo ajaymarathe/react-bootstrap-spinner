@@ -1,30 +1,25 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import 'styles.css'
-
 export default class ReactBootstrapSpinner extends Component {
   static propTypes = {
     size: PropTypes.string,
     type: PropTypes.string,
-    color: PropTypes.string,
-    customColor: PropTypes.string
+    color: PropTypes.string
   }
 
   render() {
-    const divStyle = {
+    const spinnerStyle = {
       height: this.props.size+'rem',
       width: this.props.size+'rem',
-      color: this.props.customColor
     };
     
     const type = this.props.type;
     const color = this.props.color;
-
-    var SpinnerClass = "spinner-"+type +' '+ "text-"+color;
+    var SpinnerClass = `${'spinner'-type}  ${'text'-color}`;
 
     return (
-      <div className={SpinnerClass} style={divStyle} role="status">
-         <span class="visually-hidden">Loading...</span>
+      <div className={SpinnerClass} style={spinnerStyle} role="status">
+         <span className="visually-hidden">Loading...</span>
       </div>
     )
   }

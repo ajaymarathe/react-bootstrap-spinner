@@ -20,8 +20,8 @@ import ReactSpinner from 'react-bootstrap-spinner'
 
 //import Spinner css 
 import 'react-bootstrap-spinner/dist/css/_spinners.css'
-// import 'react-bootstrap-spinner/dist/css/_spinners.scss' // To use .scss your project should have `node-sass`
-
+//import scss ( Note - To use .scss your project should have `node-sass`)
+// import 'react-bootstrap-spinner/dist/css/_spinners.scss' 
 
 class Example extends Component {
   render () {

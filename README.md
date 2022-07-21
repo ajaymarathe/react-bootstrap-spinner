@@ -8,23 +8,20 @@ Hi there, Bootstrap Spinner for React lovers &lt;3.
 
 ```js
 npm install --save react-bootstrap-spinner
-
-npm i bootstrap
 ```
 
 ## Usage
-import bootstrap.min.css in main file e.g index.js
-
-```jsx
-import "bootstrap/dist/css/bootstrap.min.css";
-
-```
 
 ```jsx
 import React, { Component } from 'react'
 
 //import ReactSpinner from react-bootstrap-spinner
 import ReactSpinner from 'react-bootstrap-spinner'
+
+//import Spinner css 
+import 'react-bootstrap-spinner/dist/css/_spinners.css'
+//import scss ( Note - To use .scss your project should have `node-sass`)
+// import 'react-bootstrap-spinner/dist/css/_spinners.scss' 
 
 class Example extends Component {
   render () {
@@ -41,6 +38,7 @@ class Example extends Component {
 - **size**: Size `size in rem`
 - **color**: You can give any bootstrap color - `primary, secondary, danger etc...`
 - **type**: Add spinner type - `grow` or `border`
+
 
 ## License
 

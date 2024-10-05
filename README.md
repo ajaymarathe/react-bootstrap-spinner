@@ -5,7 +5,7 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Showcase
-Here’s how the `react-keyboard-package` component looks:
+Here’s how the `react-bootstrap-spinner` component looks:
 
 ![React Keyboard Light Mode](https://raw.githubusercontent.com/ajaymarathe/react-bootstrap-spinner/refs/heads/master/public/images/react-spinner.png)
 

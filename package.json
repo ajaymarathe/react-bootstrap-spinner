@@ -1,7 +1,7 @@
 {
   "name": "react-bootstrap-spinner",
-  "version": "1.0.4",
-  "description": "Hello, React developers! Enhance your projects with this Bootstrap Spinner component, tailored specifically for seamless integration into your React applications 🎉",
+  "version": "1.0.5",
+  "description": "🎉 React-Bootstrap-Spinner is a customizable and flexible spinner component for React applications. It allows you to create Bootstrap-style spinners using both predefined Bootstrap colors and custom color codes, with support for both border and grow animations.",
   "main": "dist/index.js",
   "private": false,
   "author": "ajay marathe",

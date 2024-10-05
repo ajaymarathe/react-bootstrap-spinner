@@ -5,10 +5,10 @@ const App = () => {
   return (
     <div>
       <h2>Bootstrap-like Color - Border Spinner</h2>
-      <Spinner type="border" color="primary" size="3rem" />
+      <Spinner animation="border" color="primary" size="3rem" />
 
       <h2>Custom Hex Color - Grow Spinner</h2>
-      <Spinner type="grow" color="info" size="2rem" />
+      <Spinner animation="grow" color="info" size="2rem" />
     </div>
   );
 };

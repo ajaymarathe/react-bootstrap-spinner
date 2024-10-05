@@ -1,8 +1,7 @@
 import React from "react";
 import "../styles/Spinner.css";
 
-const Spinner = ({ type = "border", size = "3rem", color = "primary" }) => {
-  // Create a map of color classes to custom text color classes
+const Spinner = ({ animation = "border", size = "3rem", color = "primary" }) => {
   const colorClassMap = {
     primary: "text-primary",
     secondary: "text-secondary",
@@ -14,14 +13,12 @@ const Spinner = ({ type = "border", size = "3rem", color = "primary" }) => {
     dark: "text-dark",
   };
 
-  // Determine if the color is a custom color code or Bootstrap-like color
   const colorClass = colorClassMap[color] || "";
   const inlineStyle = !colorClass ? { color } : {};
 
-  // Bootstrap Spinner Types
   return (
     <div
-      className={`spinner-${type} ${colorClass}`}
+      className={`spinner-${animation} ${colorClass}`}
       style={{ width: size, height: size, ...inlineStyle }}
       role="status"
     >

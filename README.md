@@ -1,46 +1,52 @@
 # React Bootstrap Spinner
-Hello, React developers! Enhance your projects with this Bootstrap Spinner component, tailored specifically for seamless integration into your React applications 🎉
+🎉 React-Bootstrap-Spinner is a customizable and flexible spinner component for React applications. It allows you to create Bootstrap-style spinners using both predefined Bootstrap colors and custom color codes, with support for both border and grow animations.
 
 [![NPM](https://img.shields.io/npm/v/react-bootstrap-spinner.svg)](https://www.npmjs.com/package/react-bootstrap-spinner) [![NPM](https://img.shields.io/npm/dt/react-bootstrap-spinner.svg)](https://www.npmjs.com/package/react-bootstrap-spinner) 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-## Install
+## ✨ Features
+
+* 🌀 **Border** and **Grow** animations
+* 🎨 Custom color support (hex codes, RGB, etc.)
+* 🖌️ Bootstrap color variants (primary, success, danger, etc.)
+* ⚡ Easy integration into React projects
+* 🔧 Adjustable spinner size
+
+
+## 🚀 Install
 To install the package, run the following command:
 ```js
-npm install --save react-bootstrap-spinner
+npm install react-bootstrap-spinner
 ```
 
-## Usage
+## 📖 Usage
 Here's an example of how to use the spinner component in your React project:
 ```bash
-import React, { Component } from 'react'
+import React from 'react';
+import Spinner from 'react-bootstrap-spinner';
 
-// Import the Spinner component
-import ReactSpinner from 'react-bootstrap-spinner'
+const App = () => (
+  <div>
+    <h1>Loading...</h1>
+    <Spinner animation="border" color="primary" size="4rem" />
+    <Spinner animation="grow" color="#ff6347" size="2rem" />  {/* Custom color */}
+  </div>
+);
 
-class Example extends Component {
-  render () {
-    return (
-      // Use the Spinner component wherever you need
-      <ReactSpinner type="border" color="primary" size="5" />
-    )
-  }
-}
-
+export default App;
 ```
 
-## Props
+### Props
 
-| Prop    | Description                                                     | Values                               |
-|---------|-----------------------------------------------------------------|--------------------------------------|
-| `size`  | Specifies the size of the spinner (in `rem`).                   | Any valid `rem` value                |
-| `color` | Set the color of the spinner using any Bootstrap color.         | `primary`, `secondary`, `danger`, etc. |
-| `type`  | Defines the type of spinner to display.                         | `grow`, `border`                     |
+| Prop        | Type     | Default   | Description                                                        |
+|-------------|----------|-----------|--------------------------------------------------------------------|
+| `animation` | string   | `"border"`| The type of spinner animation (`"border"` or `"grow"`).             |
+| `color`     | string   | `"primary"`| The color of the spinner. Can be a Bootstrap color or a custom hex code. |
+| `size`      | string   | `"3rem"`  | The size of the spinner, defined in CSS units (e.g., `"2rem"`, `"50px"`). |
 
-## Contributing
+## 🤝 Contributing
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Thanks ❤️
 

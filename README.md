@@ -4,6 +4,11 @@
 [![NPM](https://img.shields.io/npm/v/react-bootstrap-spinner.svg)](https://www.npmjs.com/package/react-bootstrap-spinner) [![NPM](https://img.shields.io/npm/dt/react-bootstrap-spinner.svg)](https://www.npmjs.com/package/react-bootstrap-spinner) 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## Showcase
+Here’s how the `react-keyboard-package` component looks:
+
+![React Keyboard Light Mode](https://raw.githubusercontent.com/ajaymarathe/react-bootstrap-spinner/refs/heads/master/public/images/react-spinner.png)
+
 ## ✨ Features
 
 * 🌀 **Border** and **Grow** animations

@@ -18,12 +18,6 @@ import React, { Component } from 'react'
 // Import the Spinner component
 import ReactSpinner from 'react-bootstrap-spinner'
 
-// Import the Spinner CSS
-import 'react-bootstrap-spinner/dist/css/_spinners.css'
-
-// Optionally, you can import the SCSS version (Note: Ensure your project has `node-sass` installed)
-// import 'react-bootstrap-spinner/dist/css/_spinners.scss'
-
 class Example extends Component {
   render () {
     return (

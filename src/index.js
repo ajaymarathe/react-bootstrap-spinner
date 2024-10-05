@@ -1,26 +1,16 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-export default class ReactBootstrapSpinner extends Component {
-  static propTypes = {
-    size: PropTypes.string,
-    type: PropTypes.string,
-    color: PropTypes.string
-  }
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-  render() {
-    const spinnerStyle = {
-      height: this.props.size+'rem',
-      width: this.props.size+'rem',
-    };
-    
-    const type = this.props.type;
-    const color = this.props.color;
-    var SpinnerClass = `${'spinner'-type}  ${'text'-color}`;
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
-    return (
-      <div className={SpinnerClass} style={spinnerStyle} role="status">
-         <span className="visually-hidden">Loading...</span>
-      </div>
-    )
-  }
-}
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();

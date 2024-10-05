@@ -1,0 +1,98 @@
+/* Bootstrap Spinner CSS (from Bootstrap framework) */
+
+/* Border Spinner */
+.spinner-border {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  border: 0.25em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spinner-border 0.75s linear infinite;
+}
+
+@keyframes spinner-border {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Grow Spinner */
+.spinner-grow {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-color: currentColor;
+  border-radius: 50%;
+  opacity: 0;
+  animation: spinner-grow 0.75s linear infinite;
+}
+
+@keyframes spinner-grow {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+
+/* Mimic Bootstrap text color classes */
+
+/* Primary */
+.text-primary {
+  color: #007bff !important;
+}
+
+/* Secondary */
+.text-secondary {
+  color: #6c757d !important;
+}
+
+/* Success */
+.text-success {
+  color: #28a745 !important;
+}
+
+/* Danger */
+.text-danger {
+  color: #dc3545 !important;
+}
+
+/* Warning */
+.text-warning {
+  color: #ffc107 !important;
+}
+
+/* Info */
+.text-info {
+  color: #17a2b8 !important;
+}
+
+/* Light */
+.text-light {
+  color: #f8f9fa !important;
+}
+
+/* Dark */
+.text-dark {
+  color: #343a40 !important;
+}
+
+/* Add other colors as needed */
+
+
+
